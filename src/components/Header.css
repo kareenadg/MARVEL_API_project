@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&display=swap');
+
+header {
+  background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676818772/MARVEL/wp9267865_coiws7.jpg');
+  background-size: cover;
+  background-position: top;
+  height: 8vh;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header > nav > img {
+  height: 2.5rem;
+  width: auto;
+}
+
+header > nav > ul {
+  display: flex;
+}
+
+header > nav > ul > li > a {
+  color: rgb(209, 191, 225);
+  font-family: 'Phudu';
+  font-weight: 420;
+  letter-spacing: 1px;
+  padding: 0 1rem;
+}
+
+header > nav > ul > li > a:hover,
+.active {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: rgb(124, 114, 255);
+}
+
+header > nav > ul > li > button {
+  font-family: 'Phudu';
+  font-size: 1.5rem;
+  font-weight: 420;
+  background: none;
+  border: none;
+  color: rgb(209, 191, 225);
+  padding: 0 1rem;
+}
+
+header > nav > ul > li > button:hover {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: rgb(124, 114, 255);
+}
+
+@media (max-width: 570px){
+  header > nav > ul > li > a{
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+  header > nav > ul > li > button{
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+  .active{
+    font-size: 1rem;
+  }
+}

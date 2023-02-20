@@ -1,0 +1,58 @@
+.login {
+    background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676730444/MARVEL/logo-avengers-endgame_2560x1440_xtrafondos.com_snqu1z.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logindiv {
+    height: 15rem;
+    width: 33rem;
+    padding: 2rem;
+    background-color: rgba(98, 43, 226, 0.313);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logindiv > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.logindiv > input {
+    height: 2rem;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.logindiv > button {
+    height: 2rem;
+    width: 4rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: thistle;
+    color:rgb(41, 0, 116);
+}
+
+@media (max-width: 1425px){
+    .login {background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676818772/MARVEL/wp9267865_coiws7.jpg');
+    }
+}
+
+@media (max-width: 800px) {
+    .logindiv{
+        height: 12rem;
+        width: 18rem;
+    }
+    .logindiv > h2 {
+        font-size: 1.2rem;
+    }
+}

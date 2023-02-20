@@ -1,0 +1,79 @@
+.gallery {
+  background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676730444/MARVEL/logo-avengers-endgame_2560x1440_xtrafondos.com_snqu1z.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.7rem 3rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.filters > input {
+  background-color: rgba(255, 255, 255, 0.853);
+  height: 1.5rem;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.filters > h3 {
+  font-weight: 500;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.gallery-container > figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+}
+
+.gallery-container > figure > img {
+  height: 300px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.gallery-container > figure > h4 {
+  font-weight: 500;
+}
+
+.gallery-container > figure > a {
+  color: beige;
+}
+
+.filters > button {
+  color: #c5abde;
+  border: 2px solid #c5abde;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+}
+
+.filters > button:hover {
+  box-shadow: 2px 2px 15px #c5abde inset;
+}
+
+
+@media (max-width: 650px) {
+  .filters > button {
+    padding: 5px 12px;
+  }
+  .filters {
+    gap:0.5rem;
+  }
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&display=swap');
+
+.quotes {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  color: rgb(209, 191, 225)
+}
+
+/* .quotes > h3,
+.quotes > p {
+  width: 100%;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgb(209, 191, 225) 30%,
+    rgb(139, 59, 243) 50%,
+    rgba(100, 0, 203, 1) 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+@media (max-width: 800px){
+  .quotes {
+    font-size: 1.3rem;
+  }
+}

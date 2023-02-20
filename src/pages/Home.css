@@ -1,0 +1,44 @@
+.home {
+  background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676725811/MARVEL/logo-avengers-endgame_2560x1440_xtrafondos.com_nfbhmd.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30rem;
+}
+
+.home > p {
+  font-size: 2.5rem;
+  color: rgb(209, 191, 225);
+  display: flex;
+  justify-content: center;
+  padding: 10rem 2rem 0 2rem;
+  letter-spacing: 2px;
+}
+
+.home > h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgb(209, 191, 225);
+  display: flex;
+  justify-content: center;
+  padding: 10rem 2rem 0 2rem;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1425px){
+  .home{
+  background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676818772/MARVEL/wp9267865_coiws7.jpg');
+  gap: 10rem;
+  }
+}
+
+@media (max-width: 800px){
+  .home > p {
+    font-size: 1.5rem;
+  }
+  .home > h2 {
+    font-size: 1.5rem;
+  }
+}

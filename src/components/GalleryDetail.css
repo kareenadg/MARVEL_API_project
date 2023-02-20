@@ -1,0 +1,66 @@
+.gallerydetail {
+    background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676730444/MARVEL/logo-avengers-endgame_2560x1440_xtrafondos.com_snqu1z.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallerydetail > button {
+  color: #c5abde;
+  border: 2px solid #c5abde;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+}
+
+.gallerydetail > button:hover {
+    box-shadow: 2px 2px 15px #c5abde inset;
+  }
+
+.abilities {
+    padding: 10rem;
+    margin: 0 10rem;
+}
+
+.abilities > div > h3 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.abilities > div {
+    padding: 2rem;
+    background-color: rgba(98, 43, 226, 0.313);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (max-width: 1070px){
+    .abilities {
+        padding: 0;
+        margin: 4rem;
+    }
+    .gallerydetail {
+        background-image: url('https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676818772/MARVEL/wp9267865_coiws7.jpg');
+        background-size: cover;
+    }
+    .gallerydetail > button {
+       margin-top: 3rem;
+    }
+    .abilities > div > h3 {
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+    .abilities > div > p {
+        font-size: 0.7rem;
+    }
+}
